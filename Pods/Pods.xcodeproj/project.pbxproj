@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A558116BB83D2B77A546BBF0AC8075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1B955EA30E28AFB9FE1EC1BA3F702091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2C83468129BD8727DF75979872EA368A /* Pods-FunWithPaintUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E64579E02F5CB1909C503CC7D3BC76A2 /* Pods-FunWithPaintUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8BC334D1A18748FCA0966411CBCD35 /* Pods-FunWithPaintUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BECC33920F6A685D4885106C979C54 /* Pods-FunWithPaintUITests-dummy.m */; };
+		57FAAAAC0C0C825B9A3502F197D6958D /* Pods-FunWithPaint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D803352558D13B0CDFDBF2999DA159BA /* Pods-FunWithPaint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A985AFC3B6EFB4938DBA67DDC3BA8D /* Pods-FunWithPaintTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F32EE793FC7D904A515DFAAEEF2E6943 /* Pods-FunWithPaintTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9461D62E0F2D18069DAA8E749CAC415C /* Pods-FunWithPaint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1D5EAC7ECBF835837C63EE3766C81 /* Pods-FunWithPaint-dummy.m */; };
+		A2A5FBC1431344F9644298A25CDDEB13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F253CD3D92FE2DB8F5CD04D8A4880700 /* Pods-FunWithPaintTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078CE1F6763C01FDE18A5B67A0F1D0F /* Pods-FunWithPaintTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6073098A6FEC399FBC80FF04E50B64AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E186E10A759F5ECBA89266E9E29638;
+			remoteInfo = "Pods-FunWithPaint";
+		};
+		D8C82EA8A42ACF6382B217E4A8049B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E186E10A759F5ECBA89266E9E29638;
+			remoteInfo = "Pods-FunWithPaint";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0078CE1F6763C01FDE18A5B67A0F1D0F /* Pods-FunWithPaintTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunWithPaintTests-dummy.m"; sourceTree = "<group>"; };
+		0F3F86C5F694C6C1A65FC77EA17F91AA /* Pods-FunWithPaintTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunWithPaintTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29BE8AF9E12FC810B51C28E2FDDB9FEA /* Pods-FunWithPaintUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunWithPaintUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C4EBC6FF1ED77132C8EDC559B8E9B94 /* Pods_FunWithPaint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunWithPaint.framework; path = "Pods-FunWithPaint.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410DF35564B7086B9B0B63F4F6A6B806 /* Pods-FunWithPaint-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWithPaint-resources.sh"; sourceTree = "<group>"; };
+		4247B3C09146C40F5DDEB8B85B44D22A /* Pods-FunWithPaint-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWithPaint-frameworks.sh"; sourceTree = "<group>"; };
+		4829D9549681DF0AF1A87081899BB6DC /* Pods-FunWithPaintTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWithPaintTests-resources.sh"; sourceTree = "<group>"; };
+		5483C6FBC7AE1A801E45350B92770AF2 /* Pods-FunWithPaintUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWithPaintUITests-resources.sh"; sourceTree = "<group>"; };
+		5930319BE3F195CAB3E51230AEE732F9 /* Pods_FunWithPaintUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunWithPaintUITests.framework; path = "Pods-FunWithPaintUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5970CF6C789FDA62B821BAD1E8E4D137 /* Pods_FunWithPaintTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunWithPaintTests.framework; path = "Pods-FunWithPaintTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EDFCCC5DC59098C90262090CC8EB0CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607632321347DD389EE407CB49D30572 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		66BECC33920F6A685D4885106C979C54 /* Pods-FunWithPaintUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunWithPaintUITests-dummy.m"; sourceTree = "<group>"; };
+		6B405F49FF3B1FB556F98C717F556AD6 /* Pods-FunWithPaint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWithPaint.release.xcconfig"; sourceTree = "<group>"; };
+		71683018DDDD978E5BEA433811078249 /* Pods-FunWithPaintTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FunWithPaintTests.modulemap"; sourceTree = "<group>"; };
+		72B1D5EAC7ECBF835837C63EE3766C81 /* Pods-FunWithPaint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunWithPaint-dummy.m"; sourceTree = "<group>"; };
+		7C04971B3E544159036C54D5FA5F4D43 /* Pods-FunWithPaint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FunWithPaint.modulemap"; sourceTree = "<group>"; };
+		7E9B8DF5AC552E30054D04BEEF87561F /* Pods-FunWithPaintUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FunWithPaintUITests.modulemap"; sourceTree = "<group>"; };
+		7EA2E54CB4D031386E4A3891D2BA0CAB /* Pods-FunWithPaint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWithPaint.debug.xcconfig"; sourceTree = "<group>"; };
+		8621F113D343918B10EBA21E07D3BBFD /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		88CD00106A89FE768DA4E5898E34EDB5 /* Pods-FunWithPaintUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWithPaintUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8A74F69DBD6975BE19B1E6B06ED57BE8 /* Pods-FunWithPaintTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunWithPaintTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C9062F5D84CA91AD5C153BC7810BE98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD193B8C047BF8AEFB1729A50A56B47 /* Pods-FunWithPaint-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunWithPaint-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7A315864F14A302BF6CD0B45E2C3642 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		AA4AB52AE1FE49FA2CD9C8787E3D7FB5 /* Pods-FunWithPaint-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunWithPaint-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5151CD2695BA905EBCEEBB3ED4AB80E /* Pods-FunWithPaintUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWithPaintUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC66A2CE49AF1F2162B6372E79CF3601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF920660A0E3B0A5234BB277D22B02CE /* Pods-FunWithPaintTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWithPaintTests-frameworks.sh"; sourceTree = "<group>"; };
+		C24EBB1A71AB94C03B20D8EBF5D16DEC /* Pods-FunWithPaintUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWithPaintUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCAE840B8A5D7540FAD9D4507A57DB69 /* Pods-FunWithPaintUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunWithPaintUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6BC41190539C35590C6872052BF2EAF /* Pods-FunWithPaintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWithPaintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D803352558D13B0CDFDBF2999DA159BA /* Pods-FunWithPaint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunWithPaint-umbrella.h"; sourceTree = "<group>"; };
+		DA5B8D57FBB5DF4CA6C2824F214EF39A /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		E64579E02F5CB1909C503CC7D3BC76A2 /* Pods-FunWithPaintUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunWithPaintUITests-umbrella.h"; sourceTree = "<group>"; };
+		F20E4E43D020162043005405B2CDEC92 /* Pods-FunWithPaintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWithPaintTests.release.xcconfig"; sourceTree = "<group>"; };
+		F32EE793FC7D904A515DFAAEEF2E6943 /* Pods-FunWithPaintTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunWithPaintTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C0DB0774E733F260A71ED991E496D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A5FBC1431344F9644298A25CDDEB13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8826A512C8A6C912C33520036969EE8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B955EA30E28AFB9FE1EC1BA3F702091 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA191F34079537C0D4543F5EA59EC795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A558116BB83D2B77A546BBF0AC8075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D671245754D958C7148A484BE779B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13C7ABC9594D43D8B7BA0F40F32094C /* Pods-FunWithPaint */,
+				F531393D50F7441A1BDB893D83512C27 /* Pods-FunWithPaintTests */,
+				293DB5F448AAB89CAB6333433F6D8FCA /* Pods-FunWithPaintUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0BF536F08A25BA83B4D06A7285B6CA6B /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				411517A95D07289E303AEB5356B6B063 /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		293DB5F448AAB89CAB6333433F6D8FCA /* Pods-FunWithPaintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC66A2CE49AF1F2162B6372E79CF3601 /* Info.plist */,
+				7E9B8DF5AC552E30054D04BEEF87561F /* Pods-FunWithPaintUITests.modulemap */,
+				29BE8AF9E12FC810B51C28E2FDDB9FEA /* Pods-FunWithPaintUITests-acknowledgements.markdown */,
+				CCAE840B8A5D7540FAD9D4507A57DB69 /* Pods-FunWithPaintUITests-acknowledgements.plist */,
+				66BECC33920F6A685D4885106C979C54 /* Pods-FunWithPaintUITests-dummy.m */,
+				88CD00106A89FE768DA4E5898E34EDB5 /* Pods-FunWithPaintUITests-frameworks.sh */,
+				5483C6FBC7AE1A801E45350B92770AF2 /* Pods-FunWithPaintUITests-resources.sh */,
+				E64579E02F5CB1909C503CC7D3BC76A2 /* Pods-FunWithPaintUITests-umbrella.h */,
+				B5151CD2695BA905EBCEEBB3ED4AB80E /* Pods-FunWithPaintUITests.debug.xcconfig */,
+				C24EBB1A71AB94C03B20D8EBF5D16DEC /* Pods-FunWithPaintUITests.release.xcconfig */,
+			);
+			name = "Pods-FunWithPaintUITests";
+			path = "Target Support Files/Pods-FunWithPaintUITests";
+			sourceTree = "<group>";
+		};
+		411517A95D07289E303AEB5356B6B063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A315864F14A302BF6CD0B45E2C3642 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F79C6B03E5194D3468011806946EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4EBC6FF1ED77132C8EDC559B8E9B94 /* Pods_FunWithPaint.framework */,
+				5970CF6C789FDA62B821BAD1E8E4D137 /* Pods_FunWithPaintTests.framework */,
+				5930319BE3F195CAB3E51230AEE732F9 /* Pods_FunWithPaintUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F83748FB7A53BEF46129D18B0CF53C /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				F91DB74D7D17026793F75D04FAF895D0 /* Frameworks */,
+				85E9FF6F5D05D8E98E9B3B73A4087643 /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AD20DAD5E30DA011D51037C50AF6B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BF536F08A25BA83B4D06A7285B6CA6B /* TwitterCore */,
+				59F83748FB7A53BEF46129D18B0CF53C /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6AD20DAD5E30DA011D51037C50AF6B9D /* Pods */,
+				58F79C6B03E5194D3468011806946EB3 /* Products */,
+				08D671245754D958C7148A484BE779B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85E9FF6F5D05D8E98E9B3B73A4087643 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8621F113D343918B10EBA21E07D3BBFD /* TwitterKitResources.bundle */,
+				DA5B8D57FBB5DF4CA6C2824F214EF39A /* TwitterShareExtensionUIResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13C7ABC9594D43D8B7BA0F40F32094C /* Pods-FunWithPaint */ = {
+			isa = PBXGroup;
+			children = (
+				5EDFCCC5DC59098C90262090CC8EB0CC /* Info.plist */,
+				7C04971B3E544159036C54D5FA5F4D43 /* Pods-FunWithPaint.modulemap */,
+				9DD193B8C047BF8AEFB1729A50A56B47 /* Pods-FunWithPaint-acknowledgements.markdown */,
+				AA4AB52AE1FE49FA2CD9C8787E3D7FB5 /* Pods-FunWithPaint-acknowledgements.plist */,
+				72B1D5EAC7ECBF835837C63EE3766C81 /* Pods-FunWithPaint-dummy.m */,
+				4247B3C09146C40F5DDEB8B85B44D22A /* Pods-FunWithPaint-frameworks.sh */,
+				410DF35564B7086B9B0B63F4F6A6B806 /* Pods-FunWithPaint-resources.sh */,
+				D803352558D13B0CDFDBF2999DA159BA /* Pods-FunWithPaint-umbrella.h */,
+				7EA2E54CB4D031386E4A3891D2BA0CAB /* Pods-FunWithPaint.debug.xcconfig */,
+				6B405F49FF3B1FB556F98C717F556AD6 /* Pods-FunWithPaint.release.xcconfig */,
+			);
+			name = "Pods-FunWithPaint";
+			path = "Target Support Files/Pods-FunWithPaint";
+			sourceTree = "<group>";
+		};
+		F531393D50F7441A1BDB893D83512C27 /* Pods-FunWithPaintTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9062F5D84CA91AD5C153BC7810BE98 /* Info.plist */,
+				71683018DDDD978E5BEA433811078249 /* Pods-FunWithPaintTests.modulemap */,
+				0F3F86C5F694C6C1A65FC77EA17F91AA /* Pods-FunWithPaintTests-acknowledgements.markdown */,
+				8A74F69DBD6975BE19B1E6B06ED57BE8 /* Pods-FunWithPaintTests-acknowledgements.plist */,
+				0078CE1F6763C01FDE18A5B67A0F1D0F /* Pods-FunWithPaintTests-dummy.m */,
+				BF920660A0E3B0A5234BB277D22B02CE /* Pods-FunWithPaintTests-frameworks.sh */,
+				4829D9549681DF0AF1A87081899BB6DC /* Pods-FunWithPaintTests-resources.sh */,
+				F32EE793FC7D904A515DFAAEEF2E6943 /* Pods-FunWithPaintTests-umbrella.h */,
+				D6BC41190539C35590C6872052BF2EAF /* Pods-FunWithPaintTests.debug.xcconfig */,
+				F20E4E43D020162043005405B2CDEC92 /* Pods-FunWithPaintTests.release.xcconfig */,
+			);
+			name = "Pods-FunWithPaintTests";
+			path = "Target Support Files/Pods-FunWithPaintTests";
+			sourceTree = "<group>";
+		};
+		F91DB74D7D17026793F75D04FAF895D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607632321347DD389EE407CB49D30572 /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F71D6BF92728D1BB61058F233243979 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A985AFC3B6EFB4938DBA67DDC3BA8D /* Pods-FunWithPaintTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E0926E29230777A4F02F6825C02699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FAAAAC0C0C825B9A3502F197D6958D /* Pods-FunWithPaint-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DB900FC59F0BAC60522AEA8AF8E21A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C83468129BD8727DF75979872EA368A /* Pods-FunWithPaintUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDC2807FFD76325A6E9C18F82D86C084 /* Pods-FunWithPaintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6327199E10CE6FB10FFE754C76470A27 /* Build configuration list for PBXNativeTarget "Pods-FunWithPaintTests" */;
+			buildPhases = (
+				EFDD08E0C98730A8A6F36F0077A40070 /* Sources */,
+				8826A512C8A6C912C33520036969EE8B /* Frameworks */,
+				0F71D6BF92728D1BB61058F233243979 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE0B0F69796ED228F671F0A026877BF /* PBXTargetDependency */,
+			);
+			name = "Pods-FunWithPaintTests";
+			productName = "Pods-FunWithPaintTests";
+			productReference = 5970CF6C789FDA62B821BAD1E8E4D137 /* Pods_FunWithPaintTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F37FAF84FF1769259C16AFE67711AF47 /* Pods-FunWithPaintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04964180CE82F3937371548DA353C4B /* Build configuration list for PBXNativeTarget "Pods-FunWithPaintUITests" */;
+			buildPhases = (
+				5513162DA74B76FD242CDA5209B97B76 /* Sources */,
+				BA191F34079537C0D4543F5EA59EC795 /* Frameworks */,
+				46DB900FC59F0BAC60522AEA8AF8E21A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6DAE292746EE394ED88A1FAAAF8918 /* PBXTargetDependency */,
+			);
+			name = "Pods-FunWithPaintUITests";
+			productName = "Pods-FunWithPaintUITests";
+			productReference = 5930319BE3F195CAB3E51230AEE732F9 /* Pods_FunWithPaintUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9E186E10A759F5ECBA89266E9E29638 /* Pods-FunWithPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3ED35694FD457E29E88C849EC02213 /* Build configuration list for PBXNativeTarget "Pods-FunWithPaint" */;
+			buildPhases = (
+				C407E7DFB250E0D24D8C705D4BD494E6 /* Sources */,
+				5C0DB0774E733F260A71ED991E496D66 /* Frameworks */,
+				43E0926E29230777A4F02F6825C02699 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FunWithPaint";
+			productName = "Pods-FunWithPaint";
+			productReference = 3C4EBC6FF1ED77132C8EDC559B8E9B94 /* Pods_FunWithPaint.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58F79C6B03E5194D3468011806946EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E186E10A759F5ECBA89266E9E29638 /* Pods-FunWithPaint */,
+				BDC2807FFD76325A6E9C18F82D86C084 /* Pods-FunWithPaintTests */,
+				F37FAF84FF1769259C16AFE67711AF47 /* Pods-FunWithPaintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5513162DA74B76FD242CDA5209B97B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8BC334D1A18748FCA0966411CBCD35 /* Pods-FunWithPaintUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C407E7DFB250E0D24D8C705D4BD494E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9461D62E0F2D18069DAA8E749CAC415C /* Pods-FunWithPaint-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDD08E0C98730A8A6F36F0077A40070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F253CD3D92FE2DB8F5CD04D8A4880700 /* Pods-FunWithPaintTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EE0B0F69796ED228F671F0A026877BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FunWithPaint";
+			target = F9E186E10A759F5ECBA89266E9E29638 /* Pods-FunWithPaint */;
+			targetProxy = D8C82EA8A42ACF6382B217E4A8049B5E /* PBXContainerItemProxy */;
+		};
+		EC6DAE292746EE394ED88A1FAAAF8918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FunWithPaint";
+			target = F9E186E10A759F5ECBA89266E9E29638 /* Pods-FunWithPaint */;
+			targetProxy = 6073098A6FEC399FBC80FF04E50B64AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		495B90731324B6DA4F61896B52AEB878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA2E54CB4D031386E4A3891D2BA0CAB /* Pods-FunWithPaint.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWithPaint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWithPaint/Pods-FunWithPaint.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		614923C22D137B465DFB47C6164EB22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B405F49FF3B1FB556F98C717F556AD6 /* Pods-FunWithPaint.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWithPaint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWithPaint/Pods-FunWithPaint.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C0AB26D27D9DE03752F6A08930D31A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20E4E43D020162043005405B2CDEC92 /* Pods-FunWithPaintTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWithPaintTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWithPaintTests/Pods-FunWithPaintTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B95B0B75C373E54ECFE930993FADC143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5151CD2695BA905EBCEEBB3ED4AB80E /* Pods-FunWithPaintUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWithPaintUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWithPaintUITests/Pods-FunWithPaintUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C42467938BC47163DC32EC941F1A4033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BC41190539C35590C6872052BF2EAF /* Pods-FunWithPaintTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWithPaintTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWithPaintTests/Pods-FunWithPaintTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3B004277E3F5E068E9AB62F9B310B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24EBB1A71AB94C03B20D8EBF5D16DEC /* Pods-FunWithPaintUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWithPaintUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWithPaintUITests/Pods-FunWithPaintUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3ED35694FD457E29E88C849EC02213 /* Build configuration list for PBXNativeTarget "Pods-FunWithPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495B90731324B6DA4F61896B52AEB878 /* Debug */,
+				614923C22D137B465DFB47C6164EB22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6327199E10CE6FB10FFE754C76470A27 /* Build configuration list for PBXNativeTarget "Pods-FunWithPaintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42467938BC47163DC32EC941F1A4033 /* Debug */,
+				9C0AB26D27D9DE03752F6A08930D31A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04964180CE82F3937371548DA353C4B /* Build configuration list for PBXNativeTarget "Pods-FunWithPaintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95B0B75C373E54ECFE930993FADC143 /* Debug */,
+				E3B004277E3F5E068E9AB62F9B310B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_FunWithPaint {
+  umbrella header "Pods-FunWithPaint-umbrella.h"
+
+  export *
+  module * { export * }
+}
